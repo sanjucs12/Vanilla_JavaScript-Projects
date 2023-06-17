@@ -13,3 +13,4 @@
 11. Meme app ---------------> https://random-meme-app.netlify.app/ [api:https://github.com/D3vd/Meme_Api]
 12. Calculator app----------> https://my-simple-calculator-js.netlify.app/
 13. Calender events --------> https://my-calender-events-app.netlify.app/
+14. Weather forecast app----> https://simple-weatherforecast-app.netlify.app/ [api:https://openweathermap.org/api]
