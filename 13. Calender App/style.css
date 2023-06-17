@@ -1,0 +1,66 @@
+ /* Reset default margin and padding */
+ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Set box-sizing to border-box for easier layout */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  /* Calendar layout */
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+  }
+
+  .calendar-header {
+    grid-column: 1 / span 7;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .calendar-body {
+    grid-column: 1 / span 7;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    gap: 2px;
+    padding: 10px;
+  }
+
+  .day {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .day-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .event {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .full-day-event {
+    background-color: #f9c2ff;
+  }
+
+  .limited-time-event {
+    background-color: #a6d4fa;
+  }
+
+  .selected-day {
+    background-color: #f7f7f7;
+  }
+
+  .event-name {
+    font-weight: bold;
+  }
